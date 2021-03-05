@@ -104,7 +104,7 @@
 
   function render(message) {
     let li = document.createElement('li');
-    li.innerHTML = `${message.id} 说：${message.data}`;
+    li.innerHTML = `${message.id} 说：${message.data} ${message.time}`;
 
     messagesElement.appendChild(li);
   }

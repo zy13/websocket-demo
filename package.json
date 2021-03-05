@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zy13/websocket-demo#readme",
   "dependencies": {
+    "dayjs": "^1.10.4",
     "koa": "^2.13.1",
     "koa-router": "^10.0.0",
     "koa-static-cache": "^5.1.4",
